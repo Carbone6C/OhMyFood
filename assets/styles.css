@@ -1,0 +1,18 @@
+/* mobile first */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+.header__title img {
+  height: 63px;
+}
+
+/*# sourceMappingURL=styles.css.map */
