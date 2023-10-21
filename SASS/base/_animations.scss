@@ -1,0 +1,9 @@
+.explore__button {
+    transition: opacity 1s ease-in-out;
+    transition: background-color 500ms;
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+

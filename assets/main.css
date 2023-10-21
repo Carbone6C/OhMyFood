@@ -1,4 +1,12 @@
 /* mobile first */
+.explore__button {
+  transition: opacity 1s ease-in-out;
+  transition: background-color 500ms;
+}
+.explore__button:hover {
+  opacity: 0.6;
+}
+
 body {
   margin: 0;
 }
@@ -77,17 +85,16 @@ ul {
 }
 
 .btn {
+  text-decoration: none;
   color: white;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
-  height: 50px;
   border: none;
   border-radius: 25px;
   box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2509803922);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 15px 25px;
 }
 
 .btn2 {
@@ -143,6 +150,7 @@ ul {
   background-color: #F6F6F6;
   padding: 30px 0;
   align-items: center;
+  justify-content: center;
 }
 .explore__title {
   width: 275px;
