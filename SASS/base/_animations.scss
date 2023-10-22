@@ -1,9 +1,23 @@
 .explore__button {
     transition: opacity 1s ease-in-out;
-    transition: background-color 500ms;
     &:hover {
         opacity: 0.6;
     }
 }
 
+.c1 {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
 
+.c2 {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.checkbox:checked ~ .c1 {
+    opacity: 1;
+}
+
+.checkbox:checked ~ .c2 {
+    opacity: 0;
+}

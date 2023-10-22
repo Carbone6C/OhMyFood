@@ -1,10 +1,27 @@
 /* mobile first */
 .explore__button {
   transition: opacity 1s ease-in-out;
-  transition: background-color 500ms;
 }
 .explore__button:hover {
   opacity: 0.6;
+}
+
+.c1 {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.c2 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.checkbox:checked ~ .c1 {
+  opacity: 1;
+}
+
+.checkbox:checked ~ .c2 {
+  opacity: 0;
 }
 
 body {
@@ -123,8 +140,36 @@ ul {
 .btn2__icon {
   color: #7E7E7E;
 }
-.btn2__icon--primary {
+.btn2:hover .btn2__icon {
   color: #9356DC;
+}
+
+.checkbox {
+  position: relative;
+  left: 89%;
+  bottom: 36px;
+  margin-bottom: -22px;
+  height: 20px;
+  width: 20px;
+  border: none;
+  z-index: 2;
+  opacity: 0;
+}
+
+.c1 {
+  position: relative;
+  left: 90%;
+  bottom: 35px;
+  font-size: 20px;
+  margin-bottom: -20px;
+  color: #9356DC;
+}
+
+.c2 {
+  position: relative;
+  left: 90%;
+  bottom: 35px;
+  font-size: 20px;
 }
 
 .header input {
@@ -209,13 +254,6 @@ ul {
   padding: 10px 0 0 15px;
   font-weight: 300;
   font-size: 17px;
-}
-
-.fa-heart {
-  position: relative;
-  left: 90%;
-  bottom: 35px;
-  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
