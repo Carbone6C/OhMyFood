@@ -1,0 +1,54 @@
+@media (min-width: 1440px) {
+    .explore {
+        &__title {
+        height: 47px;
+        font-size: 40px;
+        }
+        &__txt {
+        font-size: 18px;
+        width: 540px;
+        }
+    }
+    .functioning {
+        &__buttons {
+        flex-direction: row;
+        }
+        &__title {
+            margin-left: 160px;
+        }
+    }
+
+    .btn2 {
+        width: 22%;
+        margin: 0 15px;
+    }
+
+    .restaurants {
+        &__title {
+            margin-left: 160px;
+        }
+        &__articles {
+            flex-direction: row;
+            flex-wrap: wrap;
+            &__cards {
+                width: 35%;
+                margin: 30px 45px;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        &__title{
+            padding-bottom: 7px;
+        }
+        &__list {
+            flex-direction: row;
+            gap: 30px;
+            margin-right: 30px;
+        }
+    }
+}
+
