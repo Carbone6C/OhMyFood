@@ -1,5 +1,4 @@
 .header {
-
     input {
         padding: 0;
         border: none;
@@ -12,7 +11,7 @@
         font-weight: 500;
     }
 
-    i {
+    .fa-location-dot {
         position: relative;
         right: 70px;
         bottom: 33px;
@@ -96,4 +95,26 @@
         }
     }
 
+}
+
+.checkbox--pos {
+    left: 89%;
+    bottom: 36px;
+    margin-bottom: -22px;
+}
+
+.c1--pos {
+    left: 90%;
+    bottom: 35px;
+    margin-bottom: -20px;
+}
+
+.c2--pos {
+    left: 90%;
+    bottom: 35px;
+}
+
+.btn2--page1 {
+    padding: 20px;
+    width: 90%;
 }

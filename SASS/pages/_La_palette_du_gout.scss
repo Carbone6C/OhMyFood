@@ -1,0 +1,158 @@
+header {
+    a {
+        position: absolute;
+        right: 90%;
+        top: 20px;
+        z-index: 9;
+    }
+}
+
+.img_restaurant {
+    width: 100%;
+    height: 275px;
+}
+
+.main {
+    margin-top: -60px;
+    background-color: #F6F6F6;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px 40px 0 0;
+}
+
+.menu {
+    padding: 20px;
+    &__title {
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: 'Shrikhand', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        padding: 10px 0;
+        &__subtitle {
+            font-size: 16px;
+            font-weight: 300;
+            position: relative;
+            margin: 0;
+            margin-top: 30px;
+
+        }   
+    }
+}
+
+.borderBottom {
+    width: 40px;
+    height: 3px;
+    border-bottom: 3px solid #99E2D0;
+    margin-bottom: 10px;
+}
+        
+.pos2 {
+    position: absolute;
+    left: 83%;
+    top: 40px;
+}
+
+.btn2 {
+    &__nom {
+        font-weight: 500;
+        font-size: 18px;
+        width: 290px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 15.04px;
+        width: 290px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    &__prix {
+        font-weight: 700;
+        font-size: 15.04px;
+        position: relative;
+        top: 8px;
+    }
+    &--page2 {
+        justify-content: space-between;
+        width: 100%;
+        height: 69px;
+        padding-left: 18px;
+        margin: 15px 0;
+        background-color: #FFFFFF;
+        gap: 0;
+    }
+    &__largeur{
+        justify-content: space-between;
+    }
+
+    &-1 {
+        animation: slidedown 0.5s 0.05s both;
+    }
+
+    &-2 {
+        animation: slidedown 0.5s 0.1s both;
+    }
+
+    &-3 {
+        animation: slidedown 0.5s 0.15s both;
+    }
+
+    &-4 {
+        animation: slidedown 0.5s 0.2s both;
+    }
+
+    &-5 {
+        animation: slidedown 0.5s 0.25s both;
+    }
+
+    &-6 {
+        animation: slidedown 0.5s 0.3s both;
+    }
+    
+    &-7 {
+        animation: slidedown 0.5s 0.35s both;
+    }
+
+    &-8 {
+        animation: slidedown 0.5s 0.4s both;
+    }
+
+    &-9 {
+        animation: slidedown 0.5s 0.45s both;
+    }
+}
+
+.btn--page2 {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 186px;
+}
+
+.fa-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 0;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background-color: transparent;
+    background-color: #99E2D0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: ease-out width 1s;
+}
+
+
+.checkbox2:checked ~ .fa-background {
+    width: 60px;
+    visibility: visible;
+    z-index: 100;
+    margin-left: 10px;
+}
+

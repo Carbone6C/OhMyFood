@@ -1,3 +1,36 @@
+@keyframes slidedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px); 
+        animation-timing-function: linear;
+    }
+
+    25% {
+        opacity: 0.10;
+        transform: translateY(-75px); 
+        animation-timing-function: linear;
+    }
+
+    50% {
+        opacity: 0.25;
+        transform: translateY(-50px);
+        animation-timing-function: linear;
+    }
+
+    75% {
+        opacity: 0.5;
+        transform: translateY(-25px);
+        animation-timing-function: linear;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+
 .explore__button {
     transition: opacity 1s ease-in-out;
     &:hover {
