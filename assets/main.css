@@ -2,22 +2,22 @@
 @keyframes slidedown {
   0% {
     opacity: 0;
-    transform: translateY(-100px);
-    animation-timing-function: linear;
+    transform: translateY(-60px);
+    animation-timing-function: ease-in;
   }
   25% {
     opacity: 0.1;
-    transform: translateY(-75px);
+    transform: translateY(-45px);
     animation-timing-function: linear;
   }
   50% {
     opacity: 0.25;
-    transform: translateY(-50px);
+    transform: translateY(-30px);
     animation-timing-function: linear;
   }
   75% {
     opacity: 0.5;
-    transform: translateY(-25px);
+    transform: translateY(-15px);
     animation-timing-function: linear;
   }
   100% {
@@ -114,31 +114,16 @@
 }
 
 .btn2-1 {
-  animation: slidedown 0.5s 0.05s both;
+  animation: slidedown 1s 1.5s both;
 }
 .btn2-2 {
-  animation: slidedown 0.5s 0.1s both;
+  animation: slidedown 1s 1.75s both;
 }
 .btn2-3 {
-  animation: slidedown 0.5s 0.15s both;
+  animation: slidedown 1s 2s both;
 }
 .btn2-4 {
-  animation: slidedown 0.5s 0.2s both;
-}
-.btn2-5 {
-  animation: slidedown 0.5s 0.25s both;
-}
-.btn2-6 {
-  animation: slidedown 0.5s 0.3s both;
-}
-.btn2-7 {
-  animation: slidedown 0.5s 0.35s both;
-}
-.btn2-8 {
-  animation: slidedown 0.5s 0.4s both;
-}
-.btn2-9 {
-  animation: slidedown 0.5s 0.45s both;
+  animation: slidedown 1s 2.5s both;
 }
 
 .fa-background {
