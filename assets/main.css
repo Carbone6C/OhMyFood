@@ -114,16 +114,16 @@
 }
 
 .btn2-1 {
-  animation: slidedown 1s 1.5s both;
+  animation: slidedown 1.25s 0.75s both;
 }
 .btn2-2 {
-  animation: slidedown 1s 1.75s both;
+  animation: slidedown 1.25s 1s both;
 }
 .btn2-3 {
-  animation: slidedown 1s 2s both;
+  animation: slidedown 1.25s 1.25s both;
 }
 .btn2-4 {
-  animation: slidedown 1s 2.5s both;
+  animation: slidedown 1.25s 1.5s both;
 }
 
 .fa-background {
@@ -147,21 +147,21 @@
   width: 100%;
   left: 0;
   top: 0;
-  background-color: white;
+  background-color: #99E2D0;
   z-index: 10;
   opacity: 0;
-  animation: opacity 1.5s 0.5s linear both;
+  animation: opacity 1s linear both;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .loader__item {
-  border: 16px solid #99E2D0;
+  border: 16px solid white;
   border-top: 16px solid #89C8FA;
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  animation: loader 2s linear infinite;
+  animation: loader 1s linear infinite;
 }
 
 * {
