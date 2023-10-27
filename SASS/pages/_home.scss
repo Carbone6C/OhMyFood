@@ -25,6 +25,7 @@
     padding: 30px 0;
     align-items: center;
     justify-content: center;
+    scroll-behavior: smooth;
 
     &__title {
         width: 55%;
@@ -37,6 +38,9 @@
         width: 315px;
         height: 46px;
         color: #353535;
+    }
+    &__button {
+        scroll-behavior: smooth;
     }
 }
 

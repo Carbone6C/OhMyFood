@@ -184,6 +184,10 @@
   min-height: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -381,6 +385,7 @@ input[type=checkbox] {
   padding: 30px 0;
   align-items: center;
   justify-content: center;
+  scroll-behavior: smooth;
 }
 .explore__title {
   width: 55%;
@@ -392,6 +397,9 @@ input[type=checkbox] {
   width: 315px;
   height: 46px;
   color: #353535;
+}
+.explore__button {
+  scroll-behavior: smooth;
 }
 
 .functioning {
