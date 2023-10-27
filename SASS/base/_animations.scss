@@ -142,15 +142,15 @@
     }
 
     &-2 {
-        animation: slidedown 1.25s 1s both;
-    }
-
-    &-3 {
         animation: slidedown 1.25s 1.25s both;
     }
 
+    &-3 {
+        animation: slidedown 1.25s 1.75s both;
+    }
+
     &-4 {
-        animation: slidedown 1.25s 1.5s both;
+        animation: slidedown 1.25s 2.25s both;
     }
 
 }

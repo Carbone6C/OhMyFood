@@ -117,13 +117,13 @@
   animation: slidedown 1.25s 0.75s both;
 }
 .btn2-2 {
-  animation: slidedown 1.25s 1s both;
-}
-.btn2-3 {
   animation: slidedown 1.25s 1.25s both;
 }
+.btn2-3 {
+  animation: slidedown 1.25s 1.75s both;
+}
 .btn2-4 {
-  animation: slidedown 1.25s 1.5s both;
+  animation: slidedown 1.25s 2.25s both;
 }
 
 .fa-background {
