@@ -317,6 +317,13 @@ input[type=checkbox] {
 .restaurants__articles__link div {
   margin-top: 6px;
 }
+.restaurants__articles__animheart {
+  position: relative;
+}
+.restaurants__articles__animheart--pos1 {
+  left: 85%;
+  bottom: 15px;
+}
 .restaurants__articles__cards {
   border-radius: 15px;
   background-color: white;
@@ -335,24 +342,6 @@ input[type=checkbox] {
   padding: 10px 0 0 15px;
   font-weight: 300;
   font-size: 17px;
-}
-.restaurants__articles__cards div {
-  position: relative;
-}
-
-.checkbox--pos {
-  left: 85%;
-  bottom: 15px;
-}
-
-.c1--pos {
-  left: 85%;
-  bottom: 15px;
-}
-
-.c2--pos {
-  left: 85%;
-  bottom: 15px;
 }
 
 .btn2--page1 {
@@ -533,9 +522,10 @@ header a {
   .restaurants__articles {
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 7%;
   }
   .restaurants__articles__cards {
-    width: 40%;
+    width: 46%;
   }
   .footer {
     display: flex;

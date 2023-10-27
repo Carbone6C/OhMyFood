@@ -37,8 +37,9 @@
         &__articles {
             flex-direction: row;
             flex-wrap: wrap;
+            margin: 0 7%;
             &__cards {
-                width: 40%;
+                width: 46%;
             }
         }
     }

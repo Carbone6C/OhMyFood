@@ -96,6 +96,13 @@
                 margin-top: 6px;
             }
         }
+        &__animheart {
+            position: relative;
+            &--pos1 {
+                left: 85%;
+                bottom: 15px;
+            }
+        }
         &__cards {
             border-radius: 15px;
             background-color: white;
@@ -114,28 +121,10 @@
                 font-weight: 300;
                 font-size: 17px;
             }
-            div {
-                position: relative;
-            }
         }
     }
-
 }
 
-.checkbox--pos {
-    left: 85%;
-    bottom: 15px;
-}
-
-.c1--pos {
-    left: 85%;
-    bottom: 15px;
-}
-
-.c2--pos {
-    left: 85%;
-    bottom: 15px;
-}
 
 .btn2--page1 {
     padding: 20px;
