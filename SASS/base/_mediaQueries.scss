@@ -66,12 +66,14 @@
         margin: -60px 180px 0 180px;
     }
     
-    .menu{
-
-        padding-left: 180px;
-        padding-right: 180px;
-        &__title {
+    .menu {
+        padding-left: 20%;
+        padding-right: 20%;
+        &__restaurant {
             text-align: center;
+            &__heart--pos2 {
+                left: 75%;
+            }
         }
     }
 

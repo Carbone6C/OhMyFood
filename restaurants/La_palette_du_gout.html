@@ -1,140 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Site ohmyfood</title>
+    <link rel="stylesheet" href="../assets/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site ohmyfood</title>
-  <link rel="stylesheet" href="../assets/main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer">
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
-        <h1 class="header__title">
-            <img class="header__title__img" src="../assets/images/logo/ohmyfood.png" alt="OhMyFood">
-        </h1>
+      <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+      <h1 class="header__title">
+        <img
+          class="header__title__img"
+          src="../assets/images/logo/ohmyfood.png"
+          alt="OhMyFood"
+        />
+      </h1>
     </header>
     <img
-        src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-        alt="Plat de restaurant" class="img_restaurant"
-    >
+      src="../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+      alt="Plat de restaurant"
+      class="img_restaurant"
+    />
     <main class="main">
-        <section class="menu"> 
-            <h2 class="menu__title">La palette du goût</h2>
-                <div class="menu__title__heart">
-                    <input type="checkbox" class="checkbox pos2">
-                    <i class="fa-solid fa-heart c1 pos2"></i>
-                    <i class="fa-regular fa-heart c2 pos2"></i>
-                </div>
-                <h3 class="menu__title__subtitle">ENTRÉES</h3>
-                <div class="borderBottom"></div>
-                <div class="btn2 btn2--page2 btn2-1">
-                    <input type="checkbox" name="entree" class="checkbox2 pos3">
-                        <div class="flexcolumn textleft">
-                            <span class="btn2__nom">Fricassée d'escargots</span>
-                            <span class="btn2__description">Au piment d'Espelette </span>
-                        </div>
-                        <span class="btn2__prix">35€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-2">
-                    <input type="checkbox" name="entree" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">   
-                        <span class="btn2__nom">Foie gras de canard mi-cuit</span>
-                        <span class="btn2__description">Et ses copeaux de truffe noire</span>
-                    </div>
-                    <span class="btn2__prix">35€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-3">
-                    <input type="checkbox" name="entree" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft"> 
-                        <span class="btn2__nom">Œuf au plat</span>
-                        <span class="btn2__description">Assaisonné à la truffe sur lit de caviar</span>
-                    </div>
-                    <span class="btn2__prix">20€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <h3 class="menu__title__subtitle">PLATS</h3>
-                <div class="borderBottom"></div>
-                <div class="btn2 btn2--page2 btn2-4">
-                    <input type="checkbox" name="plat" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Filet de bœuf aux herbes</span>
-                        <span class="btn2__description">Accompagné de sa ribambelle de légumes</span>
-                    </div>
-                    <span class="btn2__prix">40€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-5">
-                    <input type="checkbox" name="plat" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Parmentier de queue de bœuf</span>
-                        <span class="btn2__description">À la truffe noire sur sa purée de panais</span>
-                    </div>
-                    <span class="btn2__prix">35€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-6">
-                    <input type="checkbox" name="plat" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Filet de turbot</span>
-                        <span class="btn2__description">Aux agrumes</span>
-                    </div>
-                    <span class="btn2__prix">44€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <h3 class="menu__title__subtitle">DESSERTS</h3>
-                <div class="borderBottom"></div>
-                <div class="btn2 btn2--page2 btn2-7">
-                    <input type="checkbox" name="dessert" class="checkbox2 pos3">    
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Paris-Brest</span>
-                        <span class="btn2__description">Revisité</span>
-                    </div>
-                    <span class="btn2__prix">18€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-8">
-                    <input type="checkbox" name="dessert" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Macaron au chocolat d'exception </span>
-                        <span class="btn2__description">Et glace à la vanille de Madagascar</span>
-                    </div>
-                    <span class="btn2__prix">22€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="btn2 btn2--page2 btn2-9">
-                    <input type="checkbox" name="dessert" class="checkbox2 pos3">
-                    <div class="flexcolumn textleft">
-                        <span class="btn2__nom">Mousse au chocolat </span>
-                        <span class="btn2__description">Au piment d'Espelette et à la truffe noire</span>
-                    </div>
-                    <span class="btn2__prix">23€</span>
-                    <div class="fa-background"><i class="fa-regular fa-circle-check"></i></div>
-                </div>
-                <div class="flexcolumn"><a href="#restaurants" class="btn btn--page2">Commander</a></div>
-        </section>
-        
+      <section class="menu">
+        <h2 class="menu__restaurant">La palette du goût</h2>
+        <div class="menu__restaurant__heart">
+          <input type="checkbox" class="checkbox menu__restaurant__heart--pos2"/>
+          <i class="fa-solid fa-heart c1 menu__restaurant__heart--pos2"></i>
+          <i class="fa-regular fa-heart c2 menu__restaurant__heart--pos2"></i>
+        </div>
+        <h3 class="menu__title">ENTRÉES</h3>
+        <div class="menu__title__borderBottom"></div>
+        <div class="menu__flexbox">
+          <div class="btn2 menu__flexbox__buttons btn2-1">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Fricassée d'escargots</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Au piment d'Espelette
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">25€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-2">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Foie gras de canard mi-cuit</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Et ses copeaux de truffe noire
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">35€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-3">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Œuf au plat</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Assaisonné à la truffe sur lit de caviar
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">20€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+        </div>
+        <h3 class="menu__title">PLATS</h3>
+        <div class="menu__title__borderBottom"></div>
+        <div class="menu__flexbox">
+          <div class="btn2 menu__flexbox__buttons btn2-4">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Filet de bœuf aux herbes</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Accompagné de sa ribambelle de légumes
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">40€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-5">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Parmentier de queue de bœuf</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >À la truffe noire sur sa purée de panais
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">35€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-6">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Filet de turbot</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Aux agrumes
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">44€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+        </div>
+        <h3 class="menu__title">DESSERTS</h3>
+        <div class="menu__title__borderBottom"></div>
+        <div class="menu__flexbox">
+          <div class="btn2 menu__flexbox__buttons btn2-7">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Paris-Brest</span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Revisité
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">18€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-8">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Macaron au chocolat d'exception </span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Et glace à la vanille de Madagascar
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">22€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+          <div class="btn2 menu__flexbox__buttons btn2-9">
+            <input type="radio" name="entree" class="checkbox2 pos3" />
+            <div class="flexrow menu__flexbox__buttons__content">
+              <div class="flexcolumn textleft">
+                <span class="menu__flexbox__buttons__nom"
+                  >Mousse au chocolat </span
+                >
+                <span class="menu__flexbox__buttons__description"
+                  >Au piment d'Espelette et à la truffe noire
+                </span>
+              </div>
+              <span class="menu__flexbox__buttons__prix">23€</span>
+            </div>
+            <div class="fa-background">
+              <i class="fa-regular fa-circle-check"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flexcolumn">
+          <a href="#restaurants" class="btn menu__commander"
+            >Commander</a
+          >
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <h2 class="footer__title">ohmyfood</h2>
-        <ul class="footer__list flexcolumn">
-            <li class="flexrow"><i class="fa-solid fa-utensils"></i><a class="footer__list--space1" href="#">Proposer un restaurant</a></li>
-            <li class="flexrow"><i class="fa-solid fa-handshake-angle"></i><a class="footer__list--space2" href="#">Devenir partenaire</a></li>
-            <li><a href="#">Mentions légales</a></li>
-            <li><a href="mailto:ohmyfood@gmail.com">Contact</a></li>
-        </ul>
+      <ul class="footer__list flexcolumn">
+        <li class="flexrow">
+          <i class="fa-solid fa-utensils"></i
+          ><a class="footer__list--space1" href="#">Proposer un restaurant</a>
+        </li>
+        <li class="flexrow">
+          <i class="fa-solid fa-handshake-angle"></i
+          ><a class="footer__list--space2" href="#">Devenir partenaire</a>
+        </li>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="mailto:ohmyfood@gmail.com">Contact</a></li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>

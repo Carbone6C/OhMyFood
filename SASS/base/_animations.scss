@@ -56,3 +56,70 @@
 .checkbox:checked ~ .c2 {
     opacity: 0;
 }
+
+// Animation des menus
+
+.btn2 {
+    &-1 {
+        animation: slidedown 0.5s 0.05s both;
+    }
+
+    &-2 {
+        animation: slidedown 0.5s 0.1s both;
+    }
+
+    &-3 {
+        animation: slidedown 0.5s 0.15s both;
+    }
+
+    &-4 {
+        animation: slidedown 0.5s 0.2s both;
+    }
+
+    &-5 {
+        animation: slidedown 0.5s 0.25s both;
+    }
+
+    &-6 {
+        animation: slidedown 0.5s 0.3s both;
+    }
+    
+    &-7 {
+        animation: slidedown 0.5s 0.35s both;
+    }
+
+    &-8 {
+        animation: slidedown 0.5s 0.4s both;
+    }
+
+    &-9 {
+        animation: slidedown 0.5s 0.45s both;
+    }
+}
+
+// Animation de la checkbox des articles
+
+.fa-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 0;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background-color: transparent;
+    background-color: #99E2D0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: ease-out width 1s;
+}
+
+.checkbox2:checked {
+    ~ .fa-background {
+    width: 60px;
+    visibility: visible;
+    z-index: 100;
+    }
+}
+
+
