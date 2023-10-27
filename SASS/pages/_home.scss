@@ -50,7 +50,9 @@
 
     &__buttons {
         align-items: center;
-        gap: 20px;   
+        button {
+            margin: 10px;
+        }
     }
 }
 
@@ -67,19 +69,39 @@
     }
 
     &__articles {
-        img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
+        &__link {
+            img {
+                grid-column: 1 / 3;
+                grid-row: 1;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+            span {
+                grid-column: 2;
+                grid-row: 1;
+                background-color: #99E2D0;
+                color: #008766;
+                text-align: center;
+                border-radius: 2px;
+                height: 29px;
+                margin-top: 10px;
+                padding-top: 6px;
+                width: 85%;
+                box-shadow: 0 4px 15px 0 #00000026;
+            }
+            div {
+                margin-top: 6px;
+            }
         }
-
         &__cards {
             border-radius: 15px;
             background-color: white;
             margin: 15px;
             box-shadow: 0 4px 15px 0 #0000001A;
+            padding-bottom: 20px;
             &__title {
                 margin: 0;
                 padding: 10px 0 0 15px;
@@ -92,26 +114,27 @@
                 font-weight: 300;
                 font-size: 17px;
             }
+            div {
+                position: relative;
+            }
         }
     }
 
 }
 
 .checkbox--pos {
-    left: 89%;
-    bottom: 36px;
-    margin-bottom: -22px;
+    left: 85%;
+    bottom: 15px;
 }
 
 .c1--pos {
-    left: 90%;
-    bottom: 35px;
-    margin-bottom: -20px;
+    left: 85%;
+    bottom: 15px;
 }
 
 .c2--pos {
-    left: 90%;
-    bottom: 35px;
+    left: 85%;
+    bottom: 15px;
 }
 
 .btn2--page1 {

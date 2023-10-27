@@ -1,4 +1,4 @@
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     .explore {
         &__title {
         height: 47px;
@@ -12,9 +12,14 @@
     .functioning {
         &__buttons {
         flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 7%;
+            button {
+                width: 31%;
+            }
         }
         &__title {
-            margin-left: 160px;
+            margin-left: 7%;
         }
     }
 
@@ -27,14 +32,13 @@
 
     .restaurants {
         &__title {
-            margin-left: 160px;
+            margin-left: 7%;
         }
         &__articles {
             flex-direction: row;
             flex-wrap: wrap;
-            & a {
-                width: 35%;
-                margin: 30px 45px;
+            &__cards {
+                width: 40%;
             }
         }
     }

@@ -48,7 +48,7 @@
 // checkbox liée au coeur
 
 .checkbox {
-    position: relative;
+    position: absolute;
     height: 20px;
     width: 20px;
     border: none;
@@ -58,14 +58,17 @@
 
 
 .c1 {
-    position: relative;
+    position: absolute;
     font-size: 20px;
-    color: #9356DC;
+    background: linear-gradient(170deg,#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
 }
 
 
 .c2 {
-    position: relative;
+    position: absolute;
     font-size: 20px;
 }
 
