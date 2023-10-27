@@ -68,6 +68,9 @@ header {
                 width: 100%;
                 justify-content: space-between;
                 padding: 15px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
         }
     }

@@ -26,6 +26,33 @@
     animation-timing-function: ease-out;
   }
 }
+@keyframes checked {
+  0% {
+    width: 0;
+    background-color: #99E2D0;
+    animation-timing-function: linear;
+  }
+  25% {
+    width: 20px;
+    background-color: #99E2D0;
+    animation-timing-function: linear;
+  }
+  50% {
+    width: 40px;
+    background-color: #99E2D0;
+    animation-timing-function: linear;
+  }
+  75% {
+    width: 60px;
+    background-color: #99E2D0;
+    animation-timing-function: linear;
+  }
+  100% {
+    width: 80px;
+    background-color: #99E2D0;
+    animation-timing-function: ease-out;
+  }
+}
 .explore__button {
   transition: opacity 1s ease-in-out;
 }
@@ -84,20 +111,19 @@
   justify-content: center;
   align-items: center;
   color: white;
-  width: 0;
   height: 100%;
   border-radius: 0 20px 20px 0;
   background-color: transparent;
-  background-color: #99E2D0;
-  visibility: hidden;
   overflow: hidden;
-  transition: ease-out width 1s;
 }
 
 .checkbox2:checked ~ .fa-background {
-  width: 60px;
-  visibility: visible;
-  z-index: 100;
+  animation: checked 0.5s both;
+}
+
+* {
+  min-width: 0;
+  min-height: 0;
 }
 
 body {
@@ -461,6 +487,9 @@ header a {
   width: 100%;
   justify-content: space-between;
   padding: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__title {
   font-size: 16px;
